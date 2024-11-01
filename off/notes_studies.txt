@@ -1,0 +1,20 @@
+- Django.
+        - 
+
+        
+
+
+######################################################
+
+                - parâmetros
+                - seu retorno
+                - exemplo
+                        - Explicação passo a passo.
+                - métodos mais úteis.
+
+######################################################
+
+        - exemplos;
+                - Explicação passo a passo.
+        - exemplo combinado;
+                - Explicação passo a passo.
