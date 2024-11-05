@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 
 # Create your views here.
 
@@ -8,11 +7,17 @@ def blog(request):
     This function based view is only to test what we learn on the class.
     You can delete it if you want. 
     """
-    return HttpResponse('This is our BLOG page. :P')
+    return render(
+        request,
+        template_name='blog/index.html'
+    )
 
 def blog_second(request):
     """
     This function based view is only to test what we learn on the class.
     You can delete it if you want. 
     """
-    return HttpResponse('This is our second BLOG page. :P')
+    return render(
+        request,
+        template_name='blog/blog_second.html'
+    )

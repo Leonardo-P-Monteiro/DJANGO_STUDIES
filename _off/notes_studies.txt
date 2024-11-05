@@ -1,6 +1,16 @@
 - Django.
-    - 
-    
+    - "context": enviando dados para o template.
+        
+
+
+
+    -  Sintaxe Django HTML.
+        - Tag context:
+            - Sintaxe
+            - parâmetros
+            - seu retorno
+            - exemplo
+                - Explicação passo a passo.
     
 
 
@@ -9,6 +19,7 @@
 
 ######################################################
 
+    - Sintaxe
     - parâmetros
     - seu retorno
     - exemplo
