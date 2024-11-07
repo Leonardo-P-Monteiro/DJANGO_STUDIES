@@ -1,0 +1,16 @@
+<article class="post">
+
+    <head>
+        
+        <h2 class="post__title">
+            <a href= "{% url 'blog:post' post.id %}">
+                {{ post.title}}
+            </a>
+        </h2>
+    </head>
+
+        <div class="post__body">
+            {{post.body}}
+        </div>
+
+</article>

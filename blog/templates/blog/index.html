@@ -1,6 +1,28 @@
 {% extends "global/base.html" %}
 
-{%block Text %}This page is the home of blog.{%endblock Text %}
+{% block texto %} {{ post.title }} {% endblock texto %}
+
+{% block posts %}
+    {% for post in posts %}
+        {% include "global/partials/postblock.html"%}
+    {% endfor %}
+{% endblock posts %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

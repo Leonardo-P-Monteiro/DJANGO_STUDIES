@@ -1,0 +1,54 @@
+{% extends "global/base.html" %}
+
+{% block texto %} {{ post.title }} {% endblock texto %}
+
+{% block posts %}
+    <article class="post single-post">
+
+        <head>
+            
+            <h1 class="post__title">
+                <a href= "{% url 'blog:post' post.id %}">
+                    {{ post.title}}
+                </a>
+            </h1>
+        </head>
+
+            <div class="post__body">
+                {{post.body}}
+            </div>
+
+    </article>
+{% endblock posts %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Desconsider this HTML under.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is our first template on Django.</h1>
+    <p>It's the <b>homepage of blog</b>.</p>
+</body>
+</html>

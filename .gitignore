@@ -163,5 +163,6 @@ cython_debug/
 
 
 # My configs.
-*settings.py
-/project_studies
+
+
+

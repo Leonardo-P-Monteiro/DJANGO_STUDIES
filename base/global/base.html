@@ -1,7 +1,18 @@
-{% include "partials/head.html" %}
+{% include "global/partials/head.html" %}
 
-<body>
-    {% block Text %}Test global document. This text will be modified.
-    {% endblock Text %}
+{% include "global/partials/menu.html" %}
+
+{% if key %}
+    <h1>This page is the home of blog.</h1>
+{% else %}
+    <h1>{% block Text %}Test global document. This text will be modified.
+    {% endblock Text %}</h1>
+{% endif %}
+
+<main class="content">
+    {% block posts %}{% endblock posts %}
+    {% block home %}{% endblock home %}
+</main>
+
 </body>
 </html>
